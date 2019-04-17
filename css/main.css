@@ -1,0 +1,145 @@
+/* too hide parts of website -
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;} /* 1 */
+  body {
+    margin: 5em 0 0 2em;
+  }
+  body {
+    margin: 0; /* all sides equal */
+    margin: 0 0 0 0; /* top, right, bottom, left */
+    margin: 0 0 0; /* top, left-right, bottom */
+    margin: 0 0; /* top-bottom, left-right */
+    margin-top: 0;
+  }
+  main {
+  background-color: #ADD8E6;
+    padding: 2em;
+    border: 5px solid #DC143C; /* dashed border box */
+    border-top: 2em solid #DC143C;
+    margin: 2em;
+  }
+  html {background-color: #4863A0;
+    font: 100%/1.15;
+    /* fantasy, cursive, monospace, sans-serif, serif */
+  }
+  body {
+    font-family: "Times New Roman", Georgia, serif;
+  padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48rem;
+  }
+  h1
+  {
+    font-size: 2.8em;
+    line-height: .8;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  li {
+    margin-top: .5em;
+  }
+  section,
+  ul,
+  ol {padding-top: 1em;}
+
+  /* ---- flexible image ---- */
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    line-height: 1.35;
+    margin-top: 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: .5em;
+    border: 1px solid #000;
+    background-color: #000;
+  }
+
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    color: #f00;
+    text-decoration: none;
+  }
+  nav a:active {
+    color: #00f;
+  }
+
+  @media (min-width: 60em) {
+    nav li {
+      display: inline;j
+    }
+    nav a {
+      display: inline-block;
+    }
+
+
+
+    * {
+  box-sizing: border-box;
+}
+
+
+/*For the Photo Gallery*/
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
